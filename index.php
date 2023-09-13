@@ -25,4 +25,22 @@ $cust_name = "Jose Saboya"; // descriptive, clear abbreviations, no numbers nor 
 
 
 $age = 33;
-echo $age;
+// echo $age;
+
+// Data Types
+// ----------------------------
+// null     bool
+// int      float
+// string   array
+// object   callable
+// resource
+?>
+
+
+<?php $expression = False;?>
+
+<?php if ($expression == true): ?>
+  <p>This is displayed if the expression is true.</p>
+<?php else: ?>
+  <p>This is displayed if the expression is false.</p>
+<?php endif; ?>
